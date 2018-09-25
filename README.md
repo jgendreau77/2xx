@@ -14,3 +14,15 @@ Version 201.0
  - created the include folder
  - created the header.inc.php and footer.inc.php files
 
+Version 202.0
+ - replaced navigation menu with top level pages by creating a function and array to dynamically create the menu (love,who,challenges,you)
+ 
+ - created the functions.inc.php file
+       - created the menuBuilder function
+ - created the menu.data.php file
+       - created the menuItems array
+ - included in the very top of the header.inc.php a require_once to the include/menu.data.php file
+ - included in the very top of the header.inc.php a require_once to the include/functions.inc.php file
+   
+       
+	   
