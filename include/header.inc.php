@@ -1,10 +1,17 @@
 <?php
 
 	// Pulls data elements used through out the entire website
-    require_once 'menu.data.php';
+    require_once 'content.data.php';
 
 	// Pulls functions used through out the entire website
 	require_once 'functions.inc.php';
+
+    // Pulls data info and config used through application
+    require_once 'config.inc.php';
+
+    if($_SERVER["SERVER_PORT"] == '80' && $_SERVER["HTTP_HOST"] !== 'localhost'){
+               header('Location: https://'.$_SERVER["HTTP_HOST"]);
+          }
 
      /*
 	    The following will be passed along to JavaScript by establising 
@@ -34,7 +41,7 @@
         for the browser, search engines, etc.
   */
     ?>	
-  <title><?php echo $siteName; ?></title>
+  <title><?php echo SITENAME; ?></title>
     <?php
   /*
         used to display information about the
@@ -47,7 +54,7 @@
 
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
    <script>
-		var siteName = '<?php echo $siteName; ?>';
+		var siteName = '<?php echo SITENAME; ?>';
 	</script>
 
 </head>
@@ -57,9 +64,11 @@
 <body>
 
 <header>
-    <h1><a href="index.php"><?php echo $siteName; ?></a></h1>
+    <h1><a href="index.php"><?php echo SITENAME; ?></a></h1>
     <h2>continuously falling forward in to the light...</h2>
     <nav>
-	     <?php echo menuBuilder($menuItems); ?>
+	     <?php echo menuBuilder($content['pages']); ?>
 	</nav>
+	
+	<nav id="primary_nav_wrap">
 </header>
