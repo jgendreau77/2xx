@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
+<<<<<<< HEAD
 <file name="header.inc.php" server="2xx.mysitedevelopment.com" local="131859384175586743" remote="131859565200000000" Dst="1" />
 <file name="footer.inc.php" server="2xx.mysitedevelopment.com" local="131859384175546789" remote="131859565200000000" Dst="1" />
 <file name="functions.inc.php" server="2xx.mysitedevelopment.com" local="131859384175566752" remote="131859565200000000" Dst="1" />
 <file name="content.data.php" server="2xx.mysitedevelopment.com" local="131859384175526803" remote="131859565200000000" Dst="1" />
 <file name="config.inc.php" server="2xx.mysitedevelopment.com" local="131859384175516786" remote="131859565200000000" Dst="1" />
 <file name="menu.data.php" server="2xx.mysitedevelopment.com" local="131823792000000000" remote="131823792000000000" Dst="2" />
+=======
+<file name="header.inc.php" server="2xx.mysitedevelopment.com" local="131860825540900276" remote="131861005200000000" Dst="1" />
+<file name="footer.inc.php" server="2xx.mysitedevelopment.com" local="131860827926045535" remote="131861007600000000" Dst="1" />
+<file name="functions.inc.php" server="2xx.mysitedevelopment.com" local="131860826695197814" remote="131861006400000000" Dst="1" />
+<file name="content.data.php" server="2xx.mysitedevelopment.com" local="131860795691247758" remote="131860975200000000" Dst="1" />
+<file name="config.inc.php" server="2xx.mysitedevelopment.com" local="131859384175516786" remote="131860986600000000" Dst="1" />
+>>>>>>> 204-0
 </dwsync>

@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
+<<<<<<< HEAD
 <file name="respond.min.js" server="2xx.mysitedevelopment.com" local="131859384175456846" remote="131859565200000000" Dst="1" />
 <file name="jquery-1.11.3.min.js" server="2xx.mysitedevelopment.com" local="131859384175436832" remote="131859565200000000" Dst="1" />
 <file name="html5shiv.min.js" server="2xx.mysitedevelopment.com" local="131859384175326913" remote="131859565200000000" Dst="1" />
 <file name="bootstrap.js" server="2xx.mysitedevelopment.com" local="131859384175316910" remote="131859565200000000" Dst="1" />
 <file name="app.js" server="2xx.mysitedevelopment.com" local="131859384175296896" remote="131859565200000000" Dst="1" />
+=======
+<file name="respond.min.js" server="2xx.mysitedevelopment.com" local="131860813303177147" remote="131860993200000000" Dst="1" />
+>>>>>>> 204-0
 </dwsync>
