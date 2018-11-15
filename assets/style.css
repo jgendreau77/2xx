@@ -254,7 +254,7 @@ table tr:hover td {
 #loaderDiv{
 	width: 300px;
 	height: 250px;
-	background-image:url(../images/giphy.gif);
+	background-image:url(images/giphy.gif);
 	position: absolute;
 	top: calc(50% - 125px);
 	left: calc(50% - 150px);
